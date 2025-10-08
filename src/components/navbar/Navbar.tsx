@@ -12,7 +12,7 @@ import "./Navbar.css";
  */
 const Navbar: React.FC = () => {
   return (
-    <nav>
+    <nav className="fixed top-0 left-0 w-full bg-gray-900 text-white flex justify-center gap-8 py-4 z-50 shadow-md">
       <Link to="/">Inicio</Link>
       <Link to="/peliculas">Peliculas</Link>
       <Link to="/sobre-nosotros">Sobre nosotros</Link>
